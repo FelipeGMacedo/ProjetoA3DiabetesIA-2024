@@ -2,7 +2,7 @@ Relatório Final: Classificação de Diabetes se é positivo ou negativo
 
 ## 1. Descrição do Problema
 
-O objetivo deste projeto foi desenvolver um modelo de machine learning para classificar os dados de uma database de dibetes como **spam** ou **não-spam (ham)**. Isso é relevante para prevenir fraudes, proteger a privacidade dos usuários e melhorar a experiência em sistemas de mensagens.
+O objetivo deste projeto foi desenvolver um modelo de machine learning para classificar os dados de uma database de dibetes como diabético ou não diabético. Isso é importante para que as pessoas possam estar tratando a doença ou realizando a prevenção caso seus dados indiquem proximidade a pessoas com diabetes.
 
 ### Dataset
 - **Fonte:** [Diabetes Dataset](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)
@@ -68,8 +68,8 @@ Inicialmente, buscamos melhorar o desempenho do **Random Forest** ajustando hipe
 ![image](https://drive.google.com/file/d/1tGyyI6LO1mW7WfcpE9A2OF_RpvvA89Tm/view?usp=drive_link)
 
 ### Análise dos Resultados
-- Os resultados obtidos indicam que a configuração original do modelo Random Forest apresenta o melhor desempenho para a tarefa de detecção de spam. A complexificação do modelo através do ajuste dos hiperparâmetros, neste caso, não se mostrou benéfica.
+- Os resultados obtidos indicam que a configuração original do modelo Random Forest apresenta o melhor desempenho para a tarefa de detecção de diabetes. A complexificação do modelo através do ajuste dos hiperparâmetros, neste caso, não se mostrou benéfica.
 
 ## 4. Conclusão
 
-O modelo **Random Forest** foi escolhido como o melhor classificador para identificar mensagens de spam. Ele demonstrou excelente desempenho, especialmente com seus **hiperparâmetros padrões**, superando todas as combinações testadas em termos de precisão e recall. Embora ajustes de hiperparâmetros tenham sido testados, os valores padrão (n_estimators=100, max_depth=None, min_samples_leaf=1) garantiram um desempenho superior, com o melhor equilíbrio entre acurácia e identificação de spam. Melhorias futuras podem incluir o balanceamento do dataset e o uso de modelos mais avançados para explorar ainda mais o potencial do classificador.
+O modelo **Random Forest** foi escolhido como o melhor classificador para identificar pessoas com diabetes. Ele demonstrou excelente desempenho, especialmente com seus **hiperparâmetros padrões**. Melhorias futuras podem incluir o aumento dos dados do dataset, pois seus dados são muito nichados, tendo em vista que são dados de mulheres de herança indígena na faixa dos 21 anos.
